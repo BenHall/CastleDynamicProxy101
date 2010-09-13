@@ -24,6 +24,8 @@ namespace CastleDynamicProxy101
             instanceMissing.Get();
             Console.WriteLine(instanceMissing.String1);
 
+            TestabilityTest.CreateUntestableTestableObject();
+            TestabilityTest.CreateUntestableTestableFileReader();
 
             Console.ReadLine();
         }
